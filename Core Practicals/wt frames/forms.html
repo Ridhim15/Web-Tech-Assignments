@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<title>Html Forms </title>
+	</head>
+	<body>
+		<center>
+			<div style="border: 2px solid black">
+				<form action="backend.php">
+					<h1>Customer Registration</h1>
+					<hr />
+					<label for="text">Name :</label>
+					<input type="text" value="Your name" name="First_name" />
+					<br /><br />
+					<label for="text">Address </label><input type="text" vaue="address" name="First_name" />
+					<br /><br />
+					<label for="text">Gender :</label>
+					<label for="radio">Male </label><input type="radio" name="radio" /> Female
+					<input type="radio" name="radio" /> <br /><br />
+					<label for="dropdown_income">Income Group : </label
+					><select id="dropdown_income" name="dropdown_income">
+						<option value="above_1lack">100000 - 500000</option>
+						<option value="above_5lakh">5,00,000 - 1000000</option>
+						<option value="above_10lakh">1000000 - 2000000</option>
+						<option value="above_20lakh">2000000 - 5000000</option>
+					</select>
+					<br /><br />
+					<label for="checkbox">Interests</label><input type="checkbox" name="interest" /><label
+						for="checkbox"
+						>Sports</label
+					><input type="checkbox" name="interest" /><label for="checkbox">Business</label>
+					<br />
+					<pre>	<input type="checkbox"name="interest" ><label for="checkbox">Research</label><input type="checkbox"name="interest" ><label for="checkbox">Cultural</label></pre>
+					<label for="checkbox">Submit</label><label for="checkbox">Reset</label>
+				</form>
+			</div>
+		</center>
+	</body>
+</html>
