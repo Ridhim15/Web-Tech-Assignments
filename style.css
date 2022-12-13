@@ -1,0 +1,19 @@
+.links{
+  display:flex;
+  border:2px solid black;
+  border-radius:20px;
+  width:200px;
+  background:limegreen;
+  align-items: center;
+  text-align:center;
+  justify-content: center;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+.wrapper{
+  justify-items:center;
+  align-items:center;
+  
+}
+h1 { text-align: center }
